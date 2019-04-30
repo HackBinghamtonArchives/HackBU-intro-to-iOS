@@ -11,7 +11,7 @@ Don't have a Mac? <br /> <br />
 
 # Today's Project
 
-Today's workshop will be an introduction to iOS development. After completing this workshop, you should be comfortable with Xcode, and able to implement some basic functionality in Swift. I've added resources to a small demo app, a social networking platform that uses geolocations to chat and network with users (Binghamton students) within the vicinity of each other, whether they are on campus, or anywhere else in the U.S. The project can be cloned to your machine and you are free to run/edit it as much as you'd like. In this workshop we will look at some beginner and intermediate functionality of iOS development. Unfortunately, we do not have time to go over Swift. Swift is a high-level language that is syntactically similar to Ruby or Python. It is quite easy to pick up for anyone with experience in object-oriented programming. Two things to note about Swift are its use of optionals, and its lack of primitive data types. In Swift, types such as Int and Double have a default value of nil, rather than 0, like in other languages. A few great, free resources on Swift are:
+Today's workshop will be an introduction to iOS development. After completing this workshop, you should be comfortable with Xcode, and able to implement some basic functionality in Swift. I've added resources to a small demo app, a social networking platform that uses geolocations to chat and network with users (Binghamton students) within the vicinity of each other, whether they are on campus, or anywhere else in the U.S. The project can be cloned to your machine and you are free to run/edit it as much as you'd like. In this workshop we will look at some beginner and intermediate functionality of iOS development. Unfortunately, we do not have time to go over Swift. Swift is a high-level language that is syntactically similar to Ruby or Python. It is quite easy to pick up for anyone with experience in object-oriented programming. Two things to note about Swift are its use of optionals, and its lack of primitive data types. In Swift, types such as Int and Double have a default value of nil, rather than 0, like in other languages. A few great, free resources on Swift are: <br />
   <a href="https://swifteducation.github.io/teaching_app_development_with_swift/">Apple Tutorial</a> <br />
   <a href="https://www.hackingwithswift.com/read/0/overview">Hacking with Swift</a> <br />
   <a href="https://www.codeconquest.com/tutorials/swift/">Code Conquest</a> <br />
@@ -33,31 +33,31 @@ We will be working in Swift. We will use Firebase's no-SQL database for user aut
 
 
 <a href="Visual-Interfaces.md">Building Visual Interfaces</a>
-  Intro to Xcode
-  Designing Visual Interfaces
-  Segues
+Intro to Xcode <br />
+Designing Visual Interfaces <br />
+Segues <br />
 
 
 <a href="ViewControllers.md">View Controllers</a>
-  IBOutlets and IBActions
-  Making Your Visual Interfaces Interactive
-  Passing Data Between View Controllers
+IBOutlets and IBActions <br />
+Making Your Visual Interfaces Interactive <br />
+Passing Data Between View Controllers <br />
 
 
 <a href="Frameworks.md">CocoaPods, APIs, and Frameworks</a>
-  What is CocoaPods?
-  Adding, Installing, and Updating Pods
+What is CocoaPods? <br />
+Adding, Installing, and Updating Pods <br />
 
 <a href="Firebase.md">Firebase Integration</a>
-  What is Firebase?
-  Setting Up
-  User Authentication
-  Posting User Data
-  Fetching User Data
+What is Firebase? <br />
+Setting Up <br />
+User Authentication <br />
+Posting User Data <br />
+Fetching User Data <br />
 
 <a href="Conclusion.md">Wrapping Up</a>
-  Testing, Building, and Deploying
-  Custom UI Views
-  Pros and Cons of Firebase
-  Constraints
-  Next Steps
+Testing, Building, and Deploying <br />
+Custom UI Views <br />
+Pros and Cons of Firebase <br />
+Constraints <br />
+Next Steps <br />
