@@ -50,10 +50,10 @@ Now that Firebase is integrated with our project, we can start to add database o
 ```
   The first 3 lines create references to Firebase's authorization framework, our Firebase database, and our locally stored user defaults property list file. The syntax of the signIn function may appear strange to anyone without experience in Swift. This function is asynchronous, meaning that it runs on a separate thread than the main UI thread. The purpose of this is so that users can still interact with the app while API calls are in progress. When the signIn call is completed, it enters a completion block, where either a user object is returned, if the sign-in attempt was successful, or an error is thrown, if the attempt failed. If the user object is returned successfully, we can exit the current view, revealing a separate view controller. If an error is thrown, an alert message is displayed.
 
-  # Posting User Data
+# Posting User Data
   Before our sign-in functionality can work properly, we probably should implement a sign-up feature. In a separate view controller for managing user sign ups, we'll add a function that attempts to create a user object with an email and password entered into 2 text fields:
 
-```Swift
+  ```Swift
   @IBAction func signUpPressed() {
     guard emailField.text != nil, (emailField.text?.contains("@"))!, (emailField.text?.count)! < 30, (emailField.text?.count)! > 1, (bioView.text?.count)! > 1, (classField.text?.count)! > 1, (majorField.text?.count)! > 1, img != nil else {
       return
@@ -95,13 +95,13 @@ Now that Firebase is integrated with our project, we can start to add database o
         }
       }
     }
-```
+    ```
 
-    Our guard statement "validates" our text fields and makes sure our profile image has been set. Syntactically, the createUser method is similar to signIn. First, we let FirebaseAuth attempt to create a user. If the user is created successfully, we will post a dictionary with our user's metadata to our database. Additionally, we will call a separate method to upload a user's profile image. Then, we will display an alert to notify users whether or not their account was created successfully. If not, then we will display the error message. Firebase will populate the database in realtime when these functions are called, as seen here:
-    <img src="workshopImages/dbStructure.png"
-    alt="Database" />
+  Our guard statement "validates" our text fields and makes sure our profile image has been set. Syntactically, the createUser method is similar to signIn. First, we let FirebaseAuth attempt to create a user. If the user is created successfully, we will post a dictionary with our user's metadata to our database. Additionally, we will call a separate method to upload a user's profile image. Then, we will display an alert to notify users whether or not their account was created successfully. If not, then we will display the error message. Firebase will populate the database in realtime when these functions are called, as seen here:
+  <img src="workshopImages/dbStructure.png"
+  alt="Database" />
 
-    # Fetching User Data
+# Fetching User Data
     We just saw how to post data to our database, now let's look at reading from our database. In our demo app, we have several view controllers that read from the database. The most straightforward is the Profile view controller. This file reads from our database once, and searches for several different fields. If these fields are found, the data will be retrieved and stored in the corresponding text fields of our view controller.
 
     ```Swift
@@ -124,7 +124,7 @@ Now that Firebase is integrated with our project, we can start to add database o
       }
       ref.removeAllObservers()
       })
-```
+      ```
       The method signature for "observeSingleEvent" should look familiar after writing the sign-in/sign-up methods. This function tells the database to read from the database once, and look for the keys "name," "bio," "class," "pathToImage," and "major."
 
 

@@ -15,11 +15,11 @@
 
 # Next Steps
   By now, hopefully you have a decent grasp of the basics of Swift and Xcode. Thanks for coming! Some common functionality of iOS development that you may want to look into on your own includes: <br /> <br />
-  <a href="https://blog.usejournal.com/custom-uiview-in-swift-done-right-ddfe2c3080a">Custom UI Views</a>
-  <a href="https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/CreateATableView.html">Table Views</a>
-  <a href="https://medium.com/ios-os-x-development/managing-async-code-in-swift-d7be44cae89f">Asynchronous Calls</a>
-  <a href="https://firebase.googleblog.com/2013/10/queries-part-1-common-sql-queries.html">Complex Firebase/SQL Queries</a>
-  Instead, if you want to become more comfortable with Swift, please check out some of the Swift programming resources included at the start of the workshop. <a href="README.md">README</a>
+  <a href="https://blog.usejournal.com/custom-uiview-in-swift-done-right-ddfe2c3080a">Custom UI Views</a> <br /> <br />
+  <a href="https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/CreateATableView.html">Table Views</a> <br /> <br />
+  <a href="https://medium.com/ios-os-x-development/managing-async-code-in-swift-d7be44cae89f">Asynchronous Calls</a> <br /> <br />
+  <a href="https://firebase.googleblog.com/2013/10/queries-part-1-common-sql-queries.html">Complex Firebase/SQL Queries</a> <br /> <br />
+  Instead, if you want to become more comfortable with Swift, please check out some of the Swift programming resources included at the start of the workshop. <a href="README.md">README</a> <br /> <br />
 
 
 # Sections
