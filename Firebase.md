@@ -95,14 +95,14 @@ Now that Firebase is integrated with our project, we can start to add database o
         }
       }
     }
-    ```
+ ```
 
-  Our guard statement "validates" our text fields and makes sure our profile image has been set. Syntactically, the createUser method is similar to signIn. First, we let FirebaseAuth attempt to create a user. If the user is created successfully, we will post a dictionary with our user's metadata to our database. Additionally, we will call a separate method to upload a user's profile image. Then, we will display an alert to notify users whether or not their account was created successfully. If not, then we will display the error message. Firebase will populate the database in realtime when these functions are called, as seen here:
-  <img src="workshopImages/dbStructure.png"
+  Our guard statement "validates" our text fields and makes sure our profile image has been set. Syntactically, the createUser  method is similar to signIn. First, we let FirebaseAuth attempt to create a user. If the user is created successfully, we will post a dictionary with our user's metadata to our database. Additionally, we will call a separate method to upload a user's profile image. Then, we will display an alert to notify users whether or not their account was created successfully. If not, then we will display the error message. Firebase will populate the database in realtime when these functions are called, as seen here:
+ <img src="workshopImages/dbStructure.png"
   alt="Database" />
 
 # Fetching User Data
-    We just saw how to post data to our database, now let's look at reading from our database. In our demo app, we have several view controllers that read from the database. The most straightforward is the Profile view controller. This file reads from our database once, and searches for several different fields. If these fields are found, the data will be retrieved and stored in the corresponding text fields of our view controller.
+   We just saw how to post data to our database, now let's look at reading from our database. In our demo app, we have several view controllers that read from the database. The most straightforward is the Profile view controller. This file reads from our database once, and searches for several different fields. If these fields are found, the data will be retrieved and stored in the corresponding text fields of our view controller.
 
     ```Swift
     let ref = Database.database().reference()
@@ -125,38 +125,38 @@ Now that Firebase is integrated with our project, we can start to add database o
       ref.removeAllObservers()
       })
       ```
-      The method signature for "observeSingleEvent" should look familiar after writing the sign-in/sign-up methods. This function tells the database to read from the database once, and look for the keys "name," "bio," "class," "pathToImage," and "major."
+      
+      
+   The method signature for "observeSingleEvent" should look familiar after writing the sign-in/sign-up methods. This function tells the database to read from the database once, and look for the keys "name," "bio," "class," "pathToImage," and "major."
 
 
-      # Sections
-
-
-      <a href="README.md">Welcome</a> <br />
-
-      <a href="Visual-Interfaces.md">Building Visual Interfaces</a> <br />
+  # Sections
+  
+  <a href="README.md">Welcome</a> <br />
+  
+  <a href="Visual-Interfaces.md">Building Visual Interfaces</a> <br />
       Intro to Xcode <br />
       Designing Visual Interfaces <br />
       Segues <br />
 
-
-      <a href="ViewControllers.md">View Controllers</a> <br />
+  <a href="ViewControllers.md">View Controllers</a> <br />
       IBOutlets and IBActions <br />
       Making Your Visual Interfaces Interactive <br />
       Passing Data Between View Controllers <br />
 
 
-      <a href="Frameworks.md">CocoaPods, APIs, and Frameworks</a> <br />
+  <a href="Frameworks.md">CocoaPods, APIs, and Frameworks</a> <br />
       What is CocoaPods? <br />
       Adding, Installing, and Updating Pods <br />
 
-      <a href="Firebase.md">Firebase Integration</a> <br />
+  <a href="Firebase.md">Firebase Integration</a> <br />
       What is Firebase? <br />
       Setting Up <br />
       User Authentication <br />
       Posting User Data <br />
       Fetching User Data <br />
 
-      <a href="Conclusion.md">Wrapping Up</a> <br />
+  <a href="Conclusion.md">Wrapping Up</a> <br />
       Testing, Building, and Deploying <br />
       Custom UI Views <br />
       Pros and Cons of Firebase <br />
