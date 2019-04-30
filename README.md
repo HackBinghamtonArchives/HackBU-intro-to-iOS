@@ -1,12 +1,11 @@
 # Mobile Development for iOS Devices
 
 
-
 # Getting Started
 
 In this workshop we will be focusing on native iOS development in Swift using the IDE Xcode (this will assume that you have access to a Mac device). For a guide on installing Xcode, version 10, check out: https://developer.apple.com/xcode/ide/.
-
-Don't have a Mac?
+&nbsp;
+Don't have a Mac? &nbsp;
   Apple is commonly cited as having made MacOS a requirement for iOS development. On the contrary, iOS apps can be built and deployed from start to finish without a Mac. However, the iOS SDK is only available on MacOS, and the Xcode IDE is highly optimized for iOS development. The differences between using Xcode and Swift, as opposed to Xamarin Studio and C#, for example, can be a bit nuanced, so I implore you to try whichever languages and/or technologies you are comfortable with. There are plenty of options ranging from virtual machines, cross-platform IDEs, mobile-hybrid frameworks, etc. Personally, I started developing mobile apps using an awesome framework released by Microsoft, called Xamarin, which allows you to build mobile apps for Android and iOS in C#, without owning a Mac.
 
 
@@ -30,30 +29,30 @@ We will be working in Swift. We will use Firebase's no-SQL database for user aut
 # Sections
 
 
-<a href="#">Building Visual Interfaces</a>
+<a href="Visual-Interfaces.md">Building Visual Interfaces</a>
   Intro to Xcode
   Designing Visual Interfaces
   Segues
 
 
-<a href="#">View Controllers</a>
+<a href="ViewControllers.md">View Controllers</a>
   IBOutlets and IBActions
   Making Your Visual Interfaces Interactive
   Passing Data Between View Controllers
 
 
-<a href="#">CocoaPods, APIs, and Frameworks</a>
+<a href="Frameworks.md">CocoaPods, APIs, and Frameworks</a>
   What is CocoaPods?
   Adding, Installing, and Updating Pods
 
-<a href="#">Firebase Integration</a>
+<a href="Firebase.md">Firebase Integration</a>
   What is Firebase?
   Setting Up
   User Authentication
   Posting User Data
   Fetching User Data
 
-<a href="#">Wrapping Up</a>
+<a href="Conclusion.md">Wrapping Up</a>
   Testing, Building, and Deploying
   Custom UI Views
   Pros and Cons of Firebase
