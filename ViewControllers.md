@@ -8,8 +8,7 @@ IBOutlets and IBActions are how your storyboard's view controllers are "wired" t
 First, we'll need to create a new UIViewController. Let's do this by clicking on the top of the first screen we introduced, the welcome screen. From there, we will need to enter the name of our view controller Swift file; feel free to name yours whatever you'd like, I named mine "SignUpVC": <br /> <br />
 
 <img src="workshopImages/addingViewControllers.png"
-alt="Adding view controllers"
-height="100" width="100" />
+alt="Adding view controllers" />
 
 
 # Adding IBOutlets and IBActions to your view controller
@@ -46,30 +45,32 @@ The above code is triggered when a button wired to an IBAction is pressed. If th
 # Sections
 
 
-<a href="Visual-Interfaces.md">Building Visual Interfaces</a>
+<a href="README.md">Welcome</a> <br />
+
+<a href="Visual-Interfaces.md">Building Visual Interfaces</a> <br />
 Intro to Xcode <br />
 Designing Visual Interfaces <br />
 Segues <br />
 
 
-<a href="ViewControllers.md">View Controllers</a>
+<a href="ViewControllers.md">View Controllers</a> <br />
 IBOutlets and IBActions <br />
 Making Your Visual Interfaces Interactive <br />
 Passing Data Between View Controllers <br />
 
 
-<a href="Frameworks.md">CocoaPods, APIs, and Frameworks</a>
+<a href="Frameworks.md">CocoaPods, APIs, and Frameworks</a> <br />
 What is CocoaPods? <br />
 Adding, Installing, and Updating Pods <br />
 
-<a href="Firebase.md">Firebase Integration</a>
+<a href="Firebase.md">Firebase Integration</a> <br />
 What is Firebase? <br />
 Setting Up <br />
 User Authentication <br />
 Posting User Data <br />
 Fetching User Data <br />
 
-<a href="Conclusion.md">Wrapping Up</a>
+<a href="Conclusion.md">Wrapping Up</a> <br />
 Testing, Building, and Deploying <br />
 Custom UI Views <br />
 Pros and Cons of Firebase <br />

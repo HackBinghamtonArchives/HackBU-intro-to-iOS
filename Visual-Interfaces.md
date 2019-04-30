@@ -7,10 +7,10 @@ Product Name: (Up to you) <br /> <br />
 Team: Leave as is <br /> <br />
 Organization Name: Use your name <br /> <br />
 Organization Identifier: com.YOURNAME – this field is arbitrary, unless you decide to <br /> <br />
-Bundle Identifier: com.YOURNAME.PRODUCTNAME - Xcode will generate your app's bundle ID, which is essentially a unique <br /> <br /> identifier for your app
-Language: Swift - Objective-C is Swift's predecessor, some companies still choose to use it, but it is now deprecated, and Apple pushes its developers to migrate to Swift.
-Use Core Data: [unchecked] – Core Data is utilized for data persistence between sessions. It's a bit complicated for our workshop, as there are other options for data persistence that are faster and easier.
-Include Unit Tests: [unchecked] – Testing? Never heard of it.
+Bundle Identifier: com.YOURNAME.PRODUCTNAME - Xcode will generate your app's bundle ID, which is essentially a unique identifier for your app <br /> <br />
+Language: Swift - Objective-C is Swift's predecessor, some companies still choose to use it, but it is now deprecated, and Apple pushes its developers to migrate to Swift. <br /> <br />
+Use Core Data: [unchecked] – Core Data is utilized for data persistence between sessions. It's a bit complicated for our workshop, as there are other options for data persistence that are faster and easier. <br /> <br />
+Include Unit Tests: [unchecked] – Testing? Never heard of it. <br /> <br />
 Include UI Tests: [unchecked] – In all seriousness, unit tests and UI tests are two extremely useful tools when building a production app, but definitely not necessary for today. <br /> <br />
 
 
@@ -28,30 +28,32 @@ height="250" width="400" />
 # Sections
 
 
-<a href="Visual-Interfaces.md">Building Visual Interfaces</a>
+<a href="README.md">Welcome</a> <br />
+
+<a href="Visual-Interfaces.md">Building Visual Interfaces</a> <br />
 Intro to Xcode <br />
 Designing Visual Interfaces <br />
 Segues <br />
 
 
-<a href="ViewControllers.md">View Controllers</a>
+<a href="ViewControllers.md">View Controllers</a> <br />
 IBOutlets and IBActions <br />
 Making Your Visual Interfaces Interactive <br />
 Passing Data Between View Controllers <br />
 
 
-<a href="Frameworks.md">CocoaPods, APIs, and Frameworks</a>
+<a href="Frameworks.md">CocoaPods, APIs, and Frameworks</a> <br />
 What is CocoaPods? <br />
 Adding, Installing, and Updating Pods <br />
 
-<a href="Firebase.md">Firebase Integration</a>
+<a href="Firebase.md">Firebase Integration</a> <br />
 What is Firebase? <br />
 Setting Up <br />
 User Authentication <br />
 Posting User Data <br />
 Fetching User Data <br />
 
-<a href="Conclusion.md">Wrapping Up</a>
+<a href="Conclusion.md">Wrapping Up</a> <br />
 Testing, Building, and Deploying <br />
 Custom UI Views <br />
 Pros and Cons of Firebase <br />

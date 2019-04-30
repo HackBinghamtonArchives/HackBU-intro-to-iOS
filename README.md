@@ -31,31 +31,32 @@ We will be working in Swift. We will use Firebase's no-SQL database for user aut
 
 # Sections
 
+<a href="README.md">Welcome</a> <br />
 
-<a href="Visual-Interfaces.md">Building Visual Interfaces</a>
+<a href="Visual-Interfaces.md">Building Visual Interfaces</a> <br />
 Intro to Xcode <br />
 Designing Visual Interfaces <br />
 Segues <br />
 
 
-<a href="ViewControllers.md">View Controllers</a>
+<a href="ViewControllers.md">View Controllers</a> <br />
 IBOutlets and IBActions <br />
 Making Your Visual Interfaces Interactive <br />
 Passing Data Between View Controllers <br />
 
 
-<a href="Frameworks.md">CocoaPods, APIs, and Frameworks</a>
+<a href="Frameworks.md">CocoaPods, APIs, and Frameworks</a> <br />
 What is CocoaPods? <br />
 Adding, Installing, and Updating Pods <br />
 
-<a href="Firebase.md">Firebase Integration</a>
+<a href="Firebase.md">Firebase Integration</a> <br />
 What is Firebase? <br />
 Setting Up <br />
 User Authentication <br />
 Posting User Data <br />
 Fetching User Data <br />
 
-<a href="Conclusion.md">Wrapping Up</a>
+<a href="Conclusion.md">Wrapping Up</a> <br />
 Testing, Building, and Deploying <br />
 Custom UI Views <br />
 Pros and Cons of Firebase <br />
